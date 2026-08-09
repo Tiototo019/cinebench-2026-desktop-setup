@@ -1,0 +1,15 @@
+# See https://github.com/github/linguist
+# Project-specific overrides
+
+*.png binary
+*.svg text
+*.jpeg binary
+*.gif binary
+public/** linguist-vendored
+src/**/*.tsx linguist-detectable
+
+*.woff2 binary
+
+*.jpg binary
+* text=auto eol=lf
+# eof f737e4c1
